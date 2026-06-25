@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+ 
+  --colorblue: #228ACB;
+  --bgcolor: #ffffff;
+
+
+}
+
+@font-face {
+  font-family: 'nordl';
+  src: url('./assets/fonts/Nord-Light.ttf') format('woff2');
+
+  font-style: normal;
+}
+@font-face {
+  font-family: 'nordm';
+  src: url('./assets/fonts/Nord-Regular.ttf') format('woff2');
+
+  font-style: normal;
+}
+@font-face {
+  font-family: 'nordb';
+  src: url('./assets/fonts/Nord-Bold.ttf') format('woff2');
+
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'haasl';
+  src: url('./assets/fonts/NeueHaasDisplayLight.ttf') format('woff2');
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'haaslt';
+  src: url('./assets/fonts/NeueHaasDisplayThin.ttf') format('woff2');
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'haasr';
+  src: url('./assets/fonts/NeueHaasDisplayRoman.ttf') format('woff2');
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'haasm';
+  src: url('./assets/fonts/NeueHaasDisplayMediu.ttf') format('woff2');
+
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'fauna';
+  src: url('./assets/fonts/fauna-thin.ttf') format('woff2');
+  font-style: normal;
+}
+
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+  background-color: rgb(255, 255, 255);
+  overflow-x: clip;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

@@ -341,7 +341,7 @@ function Home() {
             "
           > <span className="text-[var(--colorblue)]">LATEST</span> BLOGS</h2>
 
-          <div className="w-[98vw] h-auto flex flex-col items-center gap-5  mt-[10%]
+          <div className="w-[98vw] h-auto flex flex-col items-center gap-5 mt-[10%]
           sm:flex-row
           "
           >

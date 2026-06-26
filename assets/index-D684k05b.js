@@ -115,9 +115,9 @@ Please change the parent <Route path="${T}"> to <Route path="${T==="/"?"*":`${T}
               sm:text-xs
               md:text-sm
               2xl:text-xl
-              `,bgClass:"bg-[var(--colorblue)]",textClass:"text-white",particleClass:"bg-white",hoverTextColor:"var(--colorblue)"})]})}),te.jsxs("div",{className:`h-auto w-[98vw] mt-5 relative flex flex-col items-center
+              `,bgClass:"bg-[var(--colorblue)]",textClass:"text-white",particleClass:"bg-white",hoverTextColor:"var(--colorblue)"})]})}),te.jsxs("div",{className:`h-auto w-[98vw] mt-[10%]  relative flex flex-col items-center
         
-        `,children:[te.jsxs("h2",{className:` text-lg font-[nordm] text-center
+        `,children:[te.jsxs("h2",{className:` text-lg font-[nordm] text-center 
               sm:
               md:text-2xl
               lg:text-3xl
@@ -125,7 +125,7 @@ Please change the parent <Route path="${T}"> to <Route path="${T==="/"?"*":`${T}
               2xl:text-6xl
                 
                 
-            `,children:[" ",te.jsx("span",{className:"text-[var(--colorblue)]",children:"IMPACTFUL"})," STATISTICS"]}),te.jsxs("div",{className:` w-[100%] flex  flex-col items-start
+            `,children:[" ",te.jsx("span",{className:"text-[var(--colorblue)]",children:"IMPACTFUL"})," STATISTICS"]}),te.jsxs("div",{className:` w-[100%] flex  flex-col items-start mt-5
           sm:w-[]
           `,children:[te.jsx("p",{className:`text-xs mt-[5%] font-[haaslt] text-start
               sm:text-xs sm:w-[70%]

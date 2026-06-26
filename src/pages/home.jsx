@@ -228,11 +228,11 @@ function Home() {
 
 
         {/* part5 */}
-        <div className="h-auto w-[98vw] mt-5 relative flex flex-col items-center
+        <div className="h-auto w-[98vw] mt-[10%]  relative flex flex-col items-center
         
         ">
           {/* heading of the part */}
-          <h2 className=" text-lg font-[nordm] text-center
+          <h2 className=" text-lg font-[nordm] text-center 
               sm:
               md:text-2xl
               lg:text-3xl
@@ -244,7 +244,7 @@ function Home() {
           > <span className="text-[var(--colorblue)]">IMPACTFUL</span> STATISTICS</h2>
 
           {/* text and btn */}
-          <div className=" w-[100%] flex  flex-col items-start
+          <div className=" w-[100%] flex  flex-col items-start mt-5
           sm:w-[]
           ">
             <p className="text-xs mt-[5%] font-[haaslt] text-start

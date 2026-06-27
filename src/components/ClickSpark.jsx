@@ -1,10 +1,9 @@
 import { useRef, useEffect, useCallback } from "react";
 
 const ClickSpark = ({
-  sparkColor = "#fff",
-  sparkSize = 10,
+  sparkSize = 5,
   sparkRadius = 15,
-  sparkCount = 8,
+  sparkCount = 4,
   duration = 400,
   easing = "ease-out",
   extraScale = 1,
@@ -12,6 +11,18 @@ const ClickSpark = ({
 }) => {
   const canvasRef = useRef(null);
   const sparksRef = useRef([]);
+
+  // Helper to resolve CSS variable if needed
+  const resolveColor = (color) => {
+    if (typeof color === "string" && color.startsWith("var(")) {
+      const varName = color.substring(4, color.length - 1).trim();
+      // getPropertyValue may return with leading whitespace, trim it
+      return getComputedStyle(document.documentElement)
+        .getPropertyValue(varName)
+        .trim() || color;
+    }
+    return color;
+  };
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -52,14 +63,12 @@ const ClickSpark = ({
       switch (easing) {
         case "linear":
           return t;
-
         case "ease-in":
           return t * t;
-
         case "ease-in-out":
           return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
-
         default:
+          // ease-out
           return t * (2 - t);
       }
     },
@@ -73,12 +82,15 @@ const ClickSpark = ({
     const ctx = canvas.getContext("2d");
     let animationId;
 
+    // Resolve the required spark colors just once per frame
+    const whiteColor = "#fff";
+    const blueColor = resolveColor("var(--colorblue)");
+
     const draw = (timestamp) => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
       sparksRef.current = sparksRef.current.filter((spark) => {
         const elapsed = timestamp - spark.startTime;
-
         if (elapsed >= duration) {
           return false;
         }
@@ -95,6 +107,10 @@ const ClickSpark = ({
           spark.x + (distance + lineLength) * Math.cos(spark.angle);
         const y2 =
           spark.y + (distance + lineLength) * Math.sin(spark.angle);
+
+        // Alternate color per spark: even index blue, odd index white
+        const sparkColor =
+          spark.color === "white" ? whiteColor : blueColor;
 
         ctx.strokeStyle = sparkColor;
         ctx.lineWidth = 2;
@@ -114,24 +130,25 @@ const ClickSpark = ({
     return () => {
       cancelAnimationFrame(animationId);
     };
-  }, [sparkColor, sparkSize, sparkRadius, duration, easeFunc, extraScale]);
+  }, [sparkSize, sparkRadius, duration, easeFunc, extraScale]);
 
   const handleClick = (e) => {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
     const rect = canvas.getBoundingClientRect();
-
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
 
     const now = performance.now();
 
+    // Alternate color assignment: even = blue, odd = white
     const newSparks = Array.from({ length: sparkCount }, (_, i) => ({
       x,
       y,
       angle: (2 * Math.PI * i) / sparkCount,
       startTime: now,
+      color: i % 2 === 0 ? "blue" : "white",
     }));
 
     sparksRef.current.push(...newSparks);
@@ -146,7 +163,6 @@ const ClickSpark = ({
         ref={canvasRef}
         className="pointer-events-none absolute left-0 top-0 z-[9999] block h-full w-full select-none"
       />
-
       <div className="relative z-10">{children}</div>
     </div>
   );

@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import Nav_bar from "../components/Nav_bar";
+import Footer from "../components/Footer";
 import home_page_logo from "../assets/home_page_logo.png";
 import home_page_main from "../assets/home_page_main.png";
 import home_page_cricle from "../assets/homepage_circle.png"
@@ -361,6 +362,10 @@ function Home() {
             />
           </div>
         </div>
+
+
+        {/* footer */}
+                <Footer />
       </div>
 
     </div>

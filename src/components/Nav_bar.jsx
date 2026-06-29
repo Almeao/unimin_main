@@ -208,7 +208,7 @@ function Nav_bar() {
   };
 
   return (
-    <header className="relative z-50 flex h-[5vh] w-[98vw] justify-between">
+    <header className="relative z-50 flex h-[5vh] w-[95vw] justify-between">
       <Link to="/" className="z-50 flex items-center">
         <img
           src={logo}
@@ -291,7 +291,7 @@ function Nav_bar() {
       </div>
 
       {/* nav links for big screen desktop/laptop */}
-      <div className="absolute z-40 hidden h-[5vh] w-[98vw] grow items-center justify-center gap-8 lg:flex">
+      <div className="absolute z-40 hidden h-[5vh] w-[95vw] grow items-center justify-center gap-8 lg:flex">
   {navLinkes.map((link) => {
     return (
       <Link

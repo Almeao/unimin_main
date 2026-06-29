@@ -86,7 +86,7 @@ function Home() {
         <Nav_bar />
 
         {/* part1 */}
-        <div className="w-[98vw] h-auto border-t-2 border-[var(--colorblue)] mt-[2%]
+        <div className="w-[95vw] h-auto border-t-2 border-[var(--colorblue)] mt-[2%]
         sm:border-t-3
         md:mt-[1%]
         2xl:border-t-4  
@@ -94,7 +94,7 @@ function Home() {
           <img src={home_page_logo} alt="" className="object-contain h-auto" />
         </div>
         {/* part2 */}
-        <div className="w-[98vw] h-auto flex items-center   border-t-2  border-b-2 border-[var(--colorblue)]
+        <div className="w-[95vw] h-auto flex items-center   border-t-2  border-b-2 border-[var(--colorblue)]
         sm:border-t-3  border-b-3
         ">
           <p className="text-lg  uppercase font-[haasr] font-medium tracking-wider
@@ -109,7 +109,7 @@ function Home() {
           ">minerals and more</p>
         </div>
         {/* part3*/}
-        <div className="w-[100vw] h-auto relative mt-[2%] flex justify-center items-start bg-amber-400">
+        <div className="w-[100vw] h-auto relative mt-[2%] flex justify-center items-start ">
           {/* part3 main image div*/}
           <div
             className="h-[100vh] w-[100vw] bg-cover bg-center bg-no-repeat "
@@ -123,7 +123,7 @@ function Home() {
 
 
           <div
-            className="h-[35vh] w-[98vw] grid grid-cols-2 grid-rows-2 gap-4 absolute top-[73%] 
+            className="h-[35vh] w-[95vw] grid grid-cols-2 grid-rows-2 gap-4 absolute top-[73%] 
                 md:h-[40vh] md:top-[70%]
                 lg:h-[50vh] lg:top-[63%]
                 xl:h-[60vh] xl:top-[55%]"
@@ -172,7 +172,7 @@ function Home() {
 
         {/* part4 */}
 
-        <div className="h-[50vh] w-[98vw]  mt-[20%] flex flex-col items-center justify-center
+        <div className="h-[50vh] w-[95vw]  mt-[20%] flex flex-col items-center justify-center
         sm:mt-[15%]
         md:mt-[10%]
         lg:mt-[15%]
@@ -229,84 +229,114 @@ function Home() {
 
 
         {/* part5 */}
-        <div className="h-auto w-[98vw] mt-[10%]  relative flex flex-col items-center
+        <div className="h-auto w-[95vw] mt-[10%]  relative flex flex-col items-center
         
         ">
-          {/* heading of the part */}
-          <h2 className=" text-lg font-[nordm] text-center 
-              sm:
+  {/* heading of the part */}
+  <h2
+    className=" text-lg font-[nordm] text-center 
+              sm:text-xl
               md:text-2xl
               lg:text-3xl
-              xl:text-5xl
-              2xl:text-6xl
+              xl:text-4xl
+              2xl:text-5xl
                 
                 
             "
-          > <span className="text-[var(--colorblue)]">IMPACTFUL</span> STATISTICS</h2>
+  >
+    <span className="text-[var(--colorblue)]">IMPACTFUL</span> STATISTICS
+  </h2>
 
-          {/* text and btn */}
-          <div className=" w-[100%] flex  flex-col items-start mt-5
-          sm:w-[]
-          ">
-            <p className="text-xs mt-[5%] font-[haaslt] text-start
-              sm:text-xs sm:w-[70%]
-              md:text-lg
-              lg:text-lg 
-              xl:text-3xl
-              2xl:text-4xl 
+  {/* text and btn */}
+  <div
+    className=" w-[100%] flex  flex-col items-start mt-5
+          sm:w-[100%]
+          "
+  >
+    <p
+      className="text-xs mt-[5%] font-[haaslt] text-start
+              sm:text-xs sm:w-[65vw] sm:leading-[1.35]
+              md: md:leading-[1.35]
+              lg:text-lg lg:leading-[1.35]
+              xl:text-2xl xl:leading-[1.25]
+              2xl:text-3xl 2xl:leading-[1.25]
+              [@media_screen_and_(min-width:2300px)]:text-4xl
+         
             "
-            >Impactful statistics reveal surprising truths, drive business strategy (like 81% of consumers needing trust to buy), highlight social trends (like FOMO affecting 69% of US people), showcase scientific wonders (clouds weighing a million tons), and guide professional fields (LinkedIn's B2B marketingdominance).</p>
-            <AllBtn
-              text="LEARN MORE ABOUT US"
-              to="/About.jsx"
-              className="mt-5 ml-0 py-2  text-[2vw]
+    >
+      Impactful statistics reveal surprising truths, drive business strategy
+      (like 81% of consumers needing trust to buy), highlight social trends
+      (like FOMO affecting 69% of US people), showcase scientific wonders
+      (clouds weighing a million tons), and guide professional fields
+      (LinkedIn's B2B marketingdominance).
+    </p>
+
+    <AllBtn
+      text="LEARN MORE ABOUT US"
+      to="/About.jsx"
+      className="mt-5 ml-0 py-2  text-[2vw]
               sm:text-xs
               md:text-sm
               2xl:text-xl
               "
-              bgClass="bg-[var(--colorblue)]"
-              textClass="text-white"
-              particleClass="bg-white"
-              hoverTextColor="var(--colorblue)"
-            />
+      bgClass="bg-[var(--colorblue)]"
+  
+    
+    />
+  </div>
 
-          </div>
-
-
-          {/* img div */}
-          <div className="w-[98vw] h-auto mt-[-10%] flex flex-col items-center justify-between gap-2 
-          sm:flex-row sm:items-end
-          2xl:gap-0.5
-          ">
-
-
-            {/* img 1 */}
-            <div className="order-1
+  {/* img div */}
+  <div
+    className="w-[95vw] h-auto mt-[-10%] flex flex-col items-center justify-between gap-2 
+          sm:flex-row sm:items-end sm:gap-[2vw] sm:mt-[-15%]
+          md:gap-[2vw] md:mt-[-12%]
+          lg:gap-[2vw] lg:mt-[-13%]
+          xl:gap-[2vw]
+          [@media_screen_and_(min-width:1800px)]:mt-[-10%]
+          2xl:gap-[2vw] 2xl:mt-[-13%]
+         
+          "
+  >
+    {/* img 1 */}
+    <div
+      className="order-1 overflow-hidden 
            sm:order-2
-           
-           ">
-              <img src={Subtract} alt="" className=" h-[100%] w-[100%] object-contain
+             min-[1900px]:h-[120vh]
+           "
+    >
+      <img
+        src={Subtract}
+        alt=""
+        className=" h-[100%] w-[100%] object-contain
             
-            "/>
-            </div>
-            {/* img 2 */}
-            <div className="order-2
-           sm:order-1
-           
-           ">
-              <img src={Subtract2} alt="" className="h-[100%] w-[100%] object-contain
-            
-            " />
-            </div>
+            "
+      />
+    </div>
 
-          </div>
-        </div>
+    {/* img 2 */}
+    <div
+      className="order-2
+           sm:order-1
+              min-[1900px]:h-[80vh]
+           
+           "
+    >
+      <img
+        src={Subtract2}
+        alt=""
+        className="h-[100%] w-[100%] object-contain
+            
+            "
+      />
+    </div>
+  </div>
+</div>
 
 
         {/* part6 */}
 
 
-        <div className="h-[70vh]  w-[98vw] mt-[10%] flex flex-col gap-[5%]
+        <div className="h-[70vh]  w-[95vw] mt-[10%] flex flex-col gap-[5%]
                 md:h-[80vh]
                 lg:h-[95vh]
                 
@@ -330,7 +360,7 @@ function Home() {
 
         {/* part7 */}
 
-        <div className="h-auto w-[98vw]  mt-[5%] flex flex-col items-center">
+        <div className="h-auto w-[95vw]  mt-[5%] flex flex-col items-center">
           <h2 className=" text-lg font-[nordm] text-center 
               sm:
               md:text-2xl
@@ -342,7 +372,7 @@ function Home() {
             "
           > <span className="text-[var(--colorblue)]">LATEST</span> BLOGS</h2>
 
-          <div className="w-[98vw] h-auto flex flex-col items-center gap-5 mt-[10%]
+          <div className="w-[95vw] h-auto flex flex-col items-center gap-5 mt-[10%]
           sm:flex-row
           "
           >

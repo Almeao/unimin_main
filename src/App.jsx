@@ -9,6 +9,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
 import Home from "./pages/home";
+import About from "./pages/About";
 import ClickSpark from "./components/ClickSpark";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -46,6 +47,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
       </Routes>
     </ClickSpark>
     </ReactLenis>

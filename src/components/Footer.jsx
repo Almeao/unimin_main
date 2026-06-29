@@ -51,7 +51,7 @@ const Footer = () => {
 
             {/* Desktop Footer */}
             <div
-                className="hidden sm:flex h-[80vh] w-[100vw] bg-cover bg-center bg-no-repeat mt-[15%] justify-center text-sm
+                className="hidden sm:flex h-auto w-[100vw] bg-cover bg-center bg-no-repeat mt-[15%] justify-center text-sm pt-10
                 md:text-base
                 lg:text-lg
                 xl:text-xl
@@ -62,11 +62,11 @@ const Footer = () => {
                 style={{ backgroundImage: `url(${footer_bg})` }}
             >
 
-                <div className="h-auto w-[98vw] flex flex-col items-center justify-between gap-15  font-[nordb]
+                <div className="h-auto w-[95vw] flex flex-col items-center justify-between gap-25  font-[nordb]
 
         ">
                     {/* footer part1 */}
-                    <div className="h-auto w-[98vw] flex  justify-between  gap-10 "
+                    <div className="h-auto w-[95vw] flex  justify-between  gap-10 "
 
                     >
 
@@ -121,7 +121,7 @@ const Footer = () => {
                         </div>
                     </div>
                     {/* footer part2 */}
-                    <div className="h-auto w-[98vw]  ">
+                    <div className="h-auto w-[95vw]  ">
                         <div className="h-auto w-[100%]  flex flex-col items-center text-white text-start font-[nordl]  justify-between gap-5">
                             <div className="w-[100%] flex items-center justify-start gap-[2%] [--social-icon-size:3.2%]">
                                 {socialLinks.map((social) => {
@@ -176,11 +176,11 @@ const Footer = () => {
                 className=" sm:hidden h-auto w-[100vw] bg-cover bg-center bg-no-repeat pt-5 mt-[15%] font-[nordb] flex justify-center"
                 style={{ backgroundImage: `url(${footer_bg_mobail})` }}
             >
-                <div className="h-auto w-[98vw] flex flex-col items-center justify-between gap-15
+                <div className="h-auto w-[95vw] flex flex-col items-center justify-between gap-15
 
         ">
                     {/* footer part1 */}
-                    <div className="h-auto w-[98vw] flex flex-col justify-between items-center gap-15 "
+                    <div className="h-auto w-[95vw] flex flex-col justify-between items-center gap-15 "
 
                     >
 
@@ -229,7 +229,7 @@ const Footer = () => {
                         </div>
                     </div>
                     {/* footer part2 */}
-                    <div className="h-auto w-[98vw]   ">
+                    <div className="h-auto w-[95vw]   ">
                         <div className="h-auto w-[100%]  flex flex-col items-center text-white text-center font-[nordl] justify-between gap-5">
                             <div className=" w-[100%] flex items-center  justify-center gap-6 ">
                                 {socialLinks.map((social) => {

@@ -49,7 +49,7 @@ Please change the parent <Route path="${w}"> to <Route path="${w==="/"?"*":`${w}
         sm:text-xs
         md:text-sm
         2xl:text-xl
-        `,bgClass:"bg-white",textClass:"text-[var(--colorblue)]",particleClass:"bg-var(--colorblue)]",hoverTextColor:"white",fontClass:"font-[nordl]"})]})]}),QE="/unimin_main/assets/blog1-CMLr1uug.png",PE="/unimin_main/assets/blog2-50N2_TYH.png";function ZE(){const r=[{image:$r,title:"Flour Image One"},{image:$r,title:"Flour Image Two"},{image:$r,title:"Flour Image Three"},{image:$r,title:"Flour Image One"},{image:$r,title:"Flour Image Two"},{image:$r,title:"Flour Image Three"}];return U.jsx("div",{className:`
+        `,bgClass:"bg-white",textClass:"text-[var(--colorblue)]",particleClass:"bg-var(--colorblue)]",hoverTextColor:"text-[var(--colorblue)]",fontClass:"font-[nordl]"})]})]}),QE="/unimin_main/assets/blog1-CMLr1uug.png",PE="/unimin_main/assets/blog2-50N2_TYH.png";function ZE(){const r=[{image:$r,title:"Flour Image One"},{image:$r,title:"Flour Image Two"},{image:$r,title:"Flour Image Three"},{image:$r,title:"Flour Image One"},{image:$r,title:"Flour Image Two"},{image:$r,title:"Flour Image Three"}];return U.jsx("div",{className:`
     
 
     flex

@@ -217,9 +217,7 @@ function Home() {
               2xl:text-xl
               "
               bgClass="bg-[var(--colorblue)]"
-              textClass="text-white"
-              particleClass="bg-white"
-              hoverTextColor="var(--colorblue)"
+             
             />
 
 

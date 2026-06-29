@@ -130,7 +130,7 @@ Please change the parent <Route path="${w}"> to <Route path="${w==="/"?"*":`${w}
               sm:text-xs
               md:text-sm
               2xl:text-xl
-              `,bgClass:"bg-[var(--colorblue)]",textClass:"text-white",particleClass:"bg-white",hoverTextColor:"var(--colorblue)"})]})}),U.jsxs("div",{className:`h-auto w-[95vw] mt-[10%]  relative flex flex-col items-center
+              `,bgClass:"bg-[var(--colorblue)]"})]})}),U.jsxs("div",{className:`h-auto w-[95vw] mt-[10%]  relative flex flex-col items-center
         
         `,children:[U.jsxs("h2",{className:` text-lg font-[nordm] text-center 
               sm:text-xl

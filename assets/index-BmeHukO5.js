@@ -71,7 +71,7 @@ Please change the parent <Route path="${w}"> to <Route path="${w==="/"?"*":`${w}
       `,children:[U.jsx(Py,{}),U.jsx("div",{className:`w-[95vw] h-auto border-t-2 border-[var(--colorblue)] mt-[2%]
         sm:border-t-3
         md:mt-[1%]
-        2xl:border-t-4  
+        2xl:border-t-3  
         `,children:U.jsx("img",{src:c3,alt:"",className:"object-contain h-auto"})}),U.jsx("div",{className:`w-[95vw] h-auto flex items-center   border-t-2  border-b-2 border-[var(--colorblue)]
         sm:border-t-3  border-b-3
         `,children:U.jsx("p",{className:`text-lg  uppercase font-[haasr] font-medium tracking-wider

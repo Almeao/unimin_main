@@ -89,7 +89,7 @@ function Home() {
         <div className="w-[95vw] h-auto border-t-2 border-[var(--colorblue)] mt-[2%]
         sm:border-t-3
         md:mt-[1%]
-        2xl:border-t-4  
+        2xl:border-t-3  
         ">
           <img src={home_page_logo} alt="" className="object-contain h-auto" />
         </div>

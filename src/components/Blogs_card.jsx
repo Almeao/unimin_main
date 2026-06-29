@@ -47,7 +47,7 @@ const Blogs_card = ({
           bgClass="bg-white"
           textClass="text-[var(--colorblue)]"
           particleClass="bg-var(--colorblue)]"
-          hoverTextColor="white"
+          hoverTextColor="text-[var(--colorblue)]"
           fontClass="font-[nordl]"
         />
       </div>

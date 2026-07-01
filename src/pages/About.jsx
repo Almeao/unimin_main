@@ -46,7 +46,7 @@ const About = () => {
         {/* part2 */}
 
 
-        <div className=" w-[95vw] h-auto mt-[10%] flex flex-col gap-10  bg-amber-300 text-justify text-base/6 font-[haasl] 
+        <div className=" w-[95vw] h-auto mt-[10%] flex flex-col gap-10   text-justify text-base/6 font-[haasl] 
         sm:h-[60vh] sm:grid sm:grid-cols-9 sm:grid-rows-9 sm:text-sm
         md:h-[50vh] md:text-lg
         lg:h-[70vh]
@@ -54,7 +54,7 @@ const About = () => {
         2xl:h-[90vh]
    
         ">
-          <div className="row-span-1 w-[100%] bg-amber-500
+          <div className="row-span-1 w-[100%] 
           sm:col-span-4 sm:row-span-6
           lg:col-span-4 lg:row-span-7
            2xl:col-span-3 2xl:row-span-7
@@ -62,7 +62,7 @@ const About = () => {
             <img src={aboutimg1} alt="" className="h-full w-full object-cover" />
           </div>
 
-          <div className="row-span-1 bg-amber-500
+          <div className="row-span-1
           sm:col-span-5 sm:row-span-2 sm:col-start-5 sm:text-md/5
 
           xl:text-2xl/7
@@ -71,7 +71,7 @@ const About = () => {
             <p>Established in 2021, Uni-Min India is a leading provider of minerals and chemical solutions. With a diverse client base spanning Asia and beyond, we are committed to delivering top-quality products and exceptional service. Our experienced team, led by dedicated professionals, ensures seamless operations and customer satisfaction at every turn.</p>
           </div>
 
-          <div className="row-span-1 bg-amber-500
+          <div className="row-span-1 
           sm:col-span-4 sm:row-span-5 sm:col-start-6 sm:row-start-6
 
           ">
@@ -79,7 +79,7 @@ const About = () => {
 
           </div>
 
-          <div className="row-span-1 bg-amber-500 flex items-end
+          <div className="row-span-1 flex items-end
           sm:col-span-5 sm:row-span-4 sm:col-start-1 sm:row-start-7 sm:text-md/5
           lg:col-span-5 lg:row-span-3 lg:col-start-1 lg:row-start-8 
           xl:text-2xl/7
@@ -113,7 +113,7 @@ const About = () => {
           >
             <span className="text-[var(--colorblue)]">IMPACTFUL</span> STATISTICS
           </h2>
-          <div className='w-[95vw] h-auto flex flex-col justify-between bg-amber-200 gap-10
+          <div className='w-[95vw] h-auto flex flex-col justify-between  gap-10
           sm:flex-row sm:gap-5
           '>
 

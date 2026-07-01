@@ -334,7 +334,7 @@ function Home() {
         {/* part6 */}
 
 
-        <div className="h-[70vh]  w-[95vw] mt-[10%] flex flex-col gap-[5%]
+        <div className="h-auto  w-[95vw] mt-[10%] flex flex-col gap-[5%]
                 md:h-[80vh]
                 lg:h-[95vh]
                 

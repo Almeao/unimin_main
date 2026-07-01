@@ -214,26 +214,26 @@ Please change the parent <Route path="${w}"> to <Route path="${w==="/"?"*":`${w}
 
       items-center
  
-      `,children:[E.jsx(P_,{}),E.jsx("div",{className:"h-auto w-[95vw] flex justify-center items-center text-center uppercase  border-t-2 border-[var(--colorblue)] border-b-2 border-[var(--colorblue)] text-[7vw] leading-[1] font-[nordm] mt-[5%]",children:E.jsxs("h1",{children:["A top global ",E.jsxs("span",{className:"text-[var(--colorblue)]",children:[" supplier ",E.jsx("br",{})," of premium minerals ."]})]})}),E.jsxs("div",{className:` w-[95vw] h-auto mt-[10%] flex flex-col gap-10  bg-amber-300 text-justify text-base/6 font-[haasl] 
+      `,children:[E.jsx(P_,{}),E.jsx("div",{className:"h-auto w-[95vw] flex justify-center items-center text-center uppercase  border-t-2 border-[var(--colorblue)] border-b-2 border-[var(--colorblue)] text-[7vw] leading-[1] font-[nordm] mt-[5%]",children:E.jsxs("h1",{children:["A top global ",E.jsxs("span",{className:"text-[var(--colorblue)]",children:[" supplier ",E.jsx("br",{})," of premium minerals ."]})]})}),E.jsxs("div",{className:` w-[95vw] h-auto mt-[10%] flex flex-col gap-10   text-justify text-base/6 font-[haasl] 
         sm:h-[60vh] sm:grid sm:grid-cols-9 sm:grid-rows-9 sm:text-sm
         md:h-[50vh] md:text-lg
         lg:h-[70vh]
        
         2xl:h-[90vh]
    
-        `,children:[E.jsx("div",{className:`row-span-1 w-[100%] bg-amber-500
+        `,children:[E.jsx("div",{className:`row-span-1 w-[100%] 
           sm:col-span-4 sm:row-span-6
           lg:col-span-4 lg:row-span-7
            2xl:col-span-3 2xl:row-span-7
-          `,children:E.jsx("img",{src:eC,alt:"",className:"h-full w-full object-cover"})}),E.jsx("div",{className:`row-span-1 bg-amber-500
+          `,children:E.jsx("img",{src:eC,alt:"",className:"h-full w-full object-cover"})}),E.jsx("div",{className:`row-span-1
           sm:col-span-5 sm:row-span-2 sm:col-start-5 sm:text-md/5
 
           xl:text-2xl/7
           2xl:col-span-6 2xl:row-span-2 2xl:col-start-4 
-          `,children:E.jsx("p",{children:"Established in 2021, Uni-Min India is a leading provider of minerals and chemical solutions. With a diverse client base spanning Asia and beyond, we are committed to delivering top-quality products and exceptional service. Our experienced team, led by dedicated professionals, ensures seamless operations and customer satisfaction at every turn."})}),E.jsx("div",{className:`row-span-1 bg-amber-500
+          `,children:E.jsx("p",{children:"Established in 2021, Uni-Min India is a leading provider of minerals and chemical solutions. With a diverse client base spanning Asia and beyond, we are committed to delivering top-quality products and exceptional service. Our experienced team, led by dedicated professionals, ensures seamless operations and customer satisfaction at every turn."})}),E.jsx("div",{className:`row-span-1 
           sm:col-span-4 sm:row-span-5 sm:col-start-6 sm:row-start-6
 
-          `,children:E.jsx("img",{src:tC,alt:"",className:"h-full w-full object-cover"})}),E.jsx("div",{className:`row-span-1 bg-amber-500 flex items-end
+          `,children:E.jsx("img",{src:tC,alt:"",className:"h-full w-full object-cover"})}),E.jsx("div",{className:`row-span-1 flex items-end
           sm:col-span-5 sm:row-span-4 sm:col-start-1 sm:row-start-7 sm:text-md/5
           lg:col-span-5 lg:row-span-3 lg:col-start-1 lg:row-start-8 
           xl:text-2xl/7
@@ -245,7 +245,7 @@ Please change the parent <Route path="${w}"> to <Route path="${w==="/"?"*":`${w}
               2xl:text-5xl
                 
                 
-            `,children:[E.jsx("span",{className:"text-[var(--colorblue)]",children:"IMPACTFUL"})," STATISTICS"]}),E.jsxs("div",{className:`w-[95vw] h-auto flex flex-col justify-between bg-amber-200 gap-10
+            `,children:[E.jsx("span",{className:"text-[var(--colorblue)]",children:"IMPACTFUL"})," STATISTICS"]}),E.jsxs("div",{className:`w-[95vw] h-auto flex flex-col justify-between  gap-10
           sm:flex-row sm:gap-5
           `,children:[E.jsxs("div",{className:`w-[100%] sm:text-md/5 font-[haasl] flex flex-col justify-between order-2
 
